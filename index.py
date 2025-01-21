@@ -1,4 +1,5 @@
 import requests
+import helper
 
-
-print(requests.get("https://google.com"))
+print(f"Google Result -> ({requests.get(helper.google)})")
+print(f"Google Result -> ({requests.get(helper.instagram)})")
